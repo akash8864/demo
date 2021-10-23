@@ -897,23 +897,10 @@
   "resolved" "https://registry.npmjs.org/@types/node/-/node-11.9.4.tgz"
   "version" "11.9.4"
 
-"@types/prop-types@*":
-  "integrity" "sha512-Nha5b+jmBI271jdTMwrHiNXM+DvThjHOfyZtMX9kj/c/LUj2xiLHsG/1L3tJ8DjAoQN48cHwUwtqBotjyXaSdQ=="
-  "resolved" "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.5.9.tgz"
-  "version" "15.5.9"
-
 "@types/q@^1.5.1":
   "integrity" "sha512-eqz8c/0kwNi/OEHQfvIuJVLTst3in0e7uTKeuY+WL/zfKn0xVujOTp42bS/vUUokhK5P2BppLd9JXMOMHcgbjA=="
   "resolved" "https://registry.npmjs.org/@types/q/-/q-1.5.1.tgz"
   "version" "1.5.1"
-
-"@types/react@*":
-  "integrity" "sha512-PjPocAxL9SNLjYMP4dfOShW/rj9FDBJGu3JFRt0zEYf77xfihB6fq8zfDpMrV6s82KnAi7F1OEe5OsQX25Ybdw=="
-  "resolved" "https://registry.npmjs.org/@types/react/-/react-16.8.3.tgz"
-  "version" "16.8.3"
-  dependencies:
-    "@types/prop-types" "*"
-    "csstype" "^2.2.0"
 
 "@types/tapable@1.0.2":
   "integrity" "sha512-42zEJkBpNfMEAvWR5WlwtTH22oDzcMjFsL9gDGExwF8X8WvAiw7Vwop7hPw03QT8TKfec83LwbHj6SvpqM4ELQ=="
@@ -2803,11 +2790,6 @@
   dependencies:
     "cssom" "0.3.x"
 
-"csstype@^2.2.0":
-  "integrity" "sha512-Rl7PvTae0pflc1YtxtKbiSqq20Ts6vpIYOD5WBafl4y123DyHUeLrRdQP66sQW8/6gmX8jrYJLXwNeMqYVJcow=="
-  "resolved" "https://registry.npmjs.org/csstype/-/csstype-2.6.2.tgz"
-  "version" "2.6.2"
-
 "cyclist@~0.2.2":
   "integrity" "sha1-GzN5LhHpFKL9bW7WRHRkRE5fpkA="
   "resolved" "https://registry.npmjs.org/cyclist/-/cyclist-0.2.2.tgz"
@@ -4432,13 +4414,6 @@
   "integrity" "sha512-rqcy4pJo55FTTLWt+bU8ukscqHeE/e9KWvsOW2b/a3afxQZhwkQdT1rPPCJ0rYXdj4vNcasY8zHTH+jF/qStxw=="
   "resolved" "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz"
   "version" "2.5.5"
-
-"hoist-non-react-statics@^3.0.1":
-  "integrity" "sha512-0XsbTXxgiaCDYDIWFcwkmerZPSwywfUqYmwT4jzewKTQSWoE6FCMoUVOeBJWK3E/CrWbxRG3m5GzY4lnIwGRBA=="
-  "resolved" "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-3.3.0.tgz"
-  "version" "3.3.0"
-  dependencies:
-    "react-is" "^16.7.0"
 
 "home-or-tmp@^2.0.0":
   "integrity" "sha1-42w/LSyufXRqhX440Y1fMqeILbg="
@@ -7814,7 +7789,7 @@
     "kleur" "^2.0.1"
     "sisteransi" "^0.1.1"
 
-"prop-types@^15.5.0", "prop-types@^15.6.0", "prop-types@^15.6.1", "prop-types@^15.6.2":
+"prop-types@^15.6.1", "prop-types@^15.6.2":
   "integrity" "sha512-3pboPvLiWD7dkI3qf3KbUe6hKFKa52w+AE0VCqECtf+QHAKgOL37tTaNCnuX1nAAQ4ZhyP+kYVKf8rLmJ/feDQ=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.6.2.tgz"
   "version" "15.6.2"
@@ -7991,14 +7966,6 @@
     "raf" "3.4.1"
     "whatwg-fetch" "3.0.0"
 
-"react-async-script@^1.0.0":
-  "integrity" "sha512-KNbqPgaOrb7sxEr3qLuyxswJfveCGSGsxj/jYbUT0esTD2p5u5kmnt6huOOEcL5UwU4Zmbw561gUC45xPjB+MA=="
-  "resolved" "https://registry.npmjs.org/react-async-script/-/react-async-script-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "hoist-non-react-statics" "^3.0.1"
-    "prop-types" "^15.5.0"
-
 "react-dev-utils@^7.0.3":
   "integrity" "sha512-KEFsH1CewnmddPLXIuU+QWKTH/hpJKZClL2+74XN54NkPnR2KnB5gGmuQ0E7DwcCkUpdMxxqBX+rB7aB5sZS4A=="
   "resolved" "https://registry.npmjs.org/react-dev-utils/-/react-dev-utils-7.0.3.tgz"
@@ -8029,7 +7996,7 @@
     "strip-ansi" "5.0.0"
     "text-table" "0.2.0"
 
-"react-dom@^16.0.0", "react-dom@^16.7.0":
+"react-dom@^16.7.0":
   "integrity" "sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-16.14.0.tgz"
   "version" "16.14.0"
@@ -8043,32 +8010,6 @@
   "integrity" "sha512-GoqeM3Xadie7XUApXOjkY3Qhs8RkwB/Za4WMedBGrOKH1eTuKGyoAECff7jiVonJchOx6KZ9i8ILO5XIoHB+Tg=="
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-5.1.3.tgz"
   "version" "5.1.3"
-
-"react-google-login@^5.0.2":
-  "integrity" "sha512-a8ctm/PNPK7DMrtbO1cJF0iXqusEJkYJjCH+iG2GhQe9MvEEalyj7yM5iU3CJJgwmQ+9iVS+VdXepS9rSEBlqA=="
-  "resolved" "https://registry.npmjs.org/react-google-login/-/react-google-login-5.0.2.tgz"
-  "version" "5.0.2"
-  dependencies:
-    "@types/react" "*"
-    "prop-types" "^15.6.0"
-
-"react-google-recaptcha@^1.0.5":
-  "integrity" "sha512-IUIIQVUIKgsG7Ok1AiqBdJZVpFRpIWOM3H/36fAJHMd52l+X0pn4sTxvm2YJEN01QXWR1jg79+93J8mQef7hfw=="
-  "resolved" "https://registry.npmjs.org/react-google-recaptcha/-/react-google-recaptcha-1.0.5.tgz"
-  "version" "1.0.5"
-  dependencies:
-    "prop-types" "^15.5.0"
-    "react-async-script" "^1.0.0"
-
-"react-is@^16.7.0":
-  "integrity" "sha512-D+NxhSR2HUCjYky1q1DwpNUD44cDpUXzSmmFyC3ug1bClcU/iDNy0YNn1iwme28fn+NFhpA13IndOd42CrFb+Q=="
-  "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.8.2.tgz"
-  "version" "16.8.2"
-
-"react-recaptcha@^2.3.10":
-  "integrity" "sha512-IyanbozsYCuHvTYDuskZTIEcRAMG/sdvAu5b29iQWoC8Kd3Zk9WGCv2oNxh6RfGHvSvgHAyaLjmC6ei/yMsJ7g=="
-  "resolved" "https://registry.npmjs.org/react-recaptcha/-/react-recaptcha-2.3.10.tgz"
-  "version" "2.3.10"
 
 "react-router-dom@^4.3.1":
   "integrity" "sha512-c/MlywfxDdCp7EnB7YfPMOfMD3tOtIjrQlj/CKfNMBxdmpJP8xcz5P/UAFn3JbnQCNUxsHyVVqllF9LhgVyFCA=="
@@ -8150,7 +8091,7 @@
   optionalDependencies:
     "fsevents" "1.2.4"
 
-"react@^16.0.0", "react@^16.14.0", "react@^16.7.0", "react@>=15", "react@>=16.4.1":
+"react@^16.14.0", "react@^16.7.0", "react@>=15":
   "integrity" "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
   "version" "16.14.0"
